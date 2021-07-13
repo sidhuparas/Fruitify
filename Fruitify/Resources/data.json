@@ -1,0 +1,87 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "color1": "#CB356B",
+            "color2": "#BD3F32",
+            "benefits": [
+                "Protect from Diabetes",
+                "Lower cholesterol and protect against heart disease",
+                "Improve bones"
+            ],
+            "image": "https://i.postimg.cc/4J0CrkL6/apple.png?dl=1",
+            "description": "This is the king of fruit family!"
+        },
+        
+        {
+            "id": 2,
+            "name": "Banana",
+            "color1": "#FFD700",
+            "color2": "#FFFF00",
+            "benefits": [
+                "Help regulate blood sugar levels",
+                "Improve digestive health",
+                "Support Heart Health and aids in weight loss"
+            ],
+            "image": "https://i.postimg.cc/wx4X8H6J/banana.png",
+            "description": "I am small but full of energy"
+        },
+        
+        {
+            "id": 3,
+            "name": "Grapes",
+            "color1": "#56ab2f",
+            "color2": "#a8e063",
+            "benefits": [
+                "Rich in Vitamin C and K",
+                "Protects from Diabetes, Cancer and Heart Diseases",
+                "Improve Heart Health and regulate blood sugar levels"
+            ],
+            "image": "https://i.postimg.cc/5tJ9kHT3/grapes.png",
+            "description": "I am small but full of energy"
+        },
+        
+        {
+            "id": 4,
+            "name": "Jamun",
+            "color1": "#4e54c8",
+            "color2": "#8f94fb",
+            "benefits": [
+                "Improve haemoglobin count and purify blood",
+                "Strengthens gums and teeth",
+                "Prevents infection by antibacterial properties"
+            ],
+            "image": "https://i.postimg.cc/XvgNMj00/jamun.png",
+            "description": "I am small but full of energy"
+        },
+        
+        {
+            "id": 5,
+            "name": "Pineapple",
+            "color1": "#B5AC49",
+            "color2": "#3CA55C",
+            "benefits": [
+                "Rich in Anti-oxidants",
+                "Improve digestion and reduce risk of cancer",
+                "Boost immunity and suppress imflammation"
+            ],
+            "image": "https://i.postimg.cc/W4SVW5MN/pineapple.png",
+            "description": "I am small but full of energy"
+        },
+        
+        {
+            "id": 6,
+            "name": "Orange",
+            "color1": "#FDC830",
+            "color2": "#F37335",
+            "benefits": [
+                "Protect cells from damage",
+                "Help fight cancer-causing free radicals",
+                "Boost immune system and protect eye vision"
+            ],
+            "image": "https://i.postimg.cc/XJVJXZgJ/orange.png",
+            "description": "I am small but full of energy"
+        }
+    ]
+}

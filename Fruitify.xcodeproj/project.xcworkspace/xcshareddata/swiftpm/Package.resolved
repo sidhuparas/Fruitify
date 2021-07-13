@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ActivityIndicatorView",
+        "repositoryURL": "https://github.com/exyte/ActivityIndicatorView.git",
+        "state": {
+          "branch": null,
+          "revision": "04be6321d482f6bce9e3c9412e419831d88a5327",
+          "version": "0.0.7"
+        }
+      },
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "URLImage",
+        "repositoryURL": "https://github.com/dmytro-anokhin/url-image",
+        "state": {
+          "branch": null,
+          "revision": "a55b6597f6ce67dfbdc136ecfb8c8436b14ca41d",
+          "version": "3.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
