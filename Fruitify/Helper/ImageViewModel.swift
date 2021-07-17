@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 import URLImage
+import Alamofire
 
 class ImageViewModel: LoadableObject {
     
@@ -20,17 +21,18 @@ class ImageViewModel: LoadableObject {
     }
     
     func load() {
-        URLSession.shared.dataTask(with: URL(string: url)!) { data, response, error in
-            if let data = data, data.count > 0 {
-                let image = Utils.resizeImage(image: UIImage(data: data)!, targetSize: CGSize(width: 150, height: 150))
+        let request = AF.request(URL(string: url)!)
+        request.responseData { (data) in
+            if data.data != nil {
+                let image = Utils.resizeImage(
+                    image: UIImage(data: data.data!)!,
+                    targetSize: CGSize(width: 150, height: 150)
+                )
+                
                 DispatchQueue.main.async {
                     self.state = LoadingState.loaded((image?.cgImage!)!)
                 }
             }
-            
-            DispatchQueue.main.async {
-                self.objectWillChange.send()
-            }
-        }.resume()
+        }
     }
 }

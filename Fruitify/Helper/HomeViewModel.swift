@@ -15,10 +15,6 @@ class HomeViewModel: LoadableObject {
     private let JSON_URL = "https://api.jsonstorage.net/v1/json/798dc1af-fdb8-4127-8d43-1d6b5d71f4e0"
     
     init() {
-        load()
-    }
-    
-    func load() {
         getHomeJson()
     }
     
