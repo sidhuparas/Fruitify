@@ -22,6 +22,7 @@ class ImageViewModel: LoadableObject {
     
     func load() {
         let request = AF.request(URL(string: url)!)
+        
         request.responseData { (data) in
             if data.data != nil {
                 let image = Utils.resizeImage(

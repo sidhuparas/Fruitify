@@ -8,6 +8,10 @@
 import SwiftUI
 import URLImage
 
+/*
+    Special thanks to Kavsoft. This view is inspired from his tutorial.
+    Link: https://www.youtube.com/watch?v=eXc0q714dGg
+*/
 struct EmitterView: UIViewRepresentable {
     
     var fruit: FruitData

@@ -18,7 +18,7 @@ struct AsyncView<Source: LoadableObject, LoadingView: View, ErrorView: View, Con
         switch source.state {
         case .loading:
             loading()
-        case .failed(let error):
+        case .failed(_):
             errorView()
         case .loaded(let output):
             content(output)

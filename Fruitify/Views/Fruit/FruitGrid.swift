@@ -21,7 +21,6 @@ struct FruitGrid: View {
             }
         }
         .padding()
-        
     }
 }
 

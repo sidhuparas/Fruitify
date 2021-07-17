@@ -22,9 +22,8 @@ class HomeViewModel: LoadableObject {
         let request = AF.request(JSON_URL)
         request.responseDecodable(of: FruitResponse.self) { (response) in
             do {
-                let result = try! response.result.get()
+                let result = try response.result.get()
                 self.state = LoadingState.loaded(result)
-                print("Got data")
             } catch {
                 self.state = LoadingState.failed(error)
             }
